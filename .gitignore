@@ -1,1 +1,30 @@
+.env# Ignorar la carpeta de dependencias
+node_modules/
+
+# Variables de entorno (¡muy importante!)
 .env
+
+# Archivos de log
+logs
+*.log
+npm-debug.log*
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuración local del editor
+.vscode/
+
+# Archivos temporales
+*.tmp
+*.swp
+
+# Build (si usas TypeScript o haces un build de producción)
+dist/
+build/
+
+# PM2 logs (si usas PM2 en producción)
+pids
+*.pid
+*.seed
