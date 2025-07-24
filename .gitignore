@@ -1,5 +1,5 @@
 .env# Ignorar la carpeta de dependencias
-node_modules/
+node_modules
 
 # Variables de entorno (¡muy importante!)
 .env
@@ -13,7 +13,7 @@ npm-debug.log*
 .DS_Store
 Thumbs.db
 
-# Configuración local del editor
+# Configuración local del editor    
 .vscode/
 
 # Archivos temporales
